@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://hospital-queue-system-fn5j.onrender.com/",
+  baseURL: "https://hospital-queue-system-fn5j.onrender.com/api",
 });
 
 API.interceptors.request.use((req) => {
